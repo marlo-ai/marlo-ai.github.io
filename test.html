@@ -47,7 +47,6 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="nav navbar-nav navbar-right">
-                                <!-- <li class="active"><a href="#intro">Home</a></li> -->
                                  <li><a href="#about">About</a></li>
                                  <li><a href="#cfp">Call for Papers</a></li>
                                  <li><a href="#program">Program</a></li>
@@ -85,15 +84,14 @@
             <div class="row">
                 <div class="col-lg-12">
                   <div class="col-lg-4">
-                    <div class="animatedParent">
-                        <div class="section-heading text-center animated bounceInDown">
-                            <img src="img/marlo.png" alt="..." class="img-circle" style="width:70%">
-
+                        <div class="section-heading text-center col-lg-offset-3">
+                            <div style="max-width:350px;">
+                                <img src="img/marlo.png" alt="..." class="img-circle" style="width:70%">
+                            </div>
                         </div>
                     </div>
-                  </div>
                   <div class="col-lg-8">
-                    <div class="col-lg-9 col-lg-offset-2">
+                    <div class="col-lg-9">
                         <div class="text-left">
                             <p>
                                This AIIDE workshop is centered on the MARL&Ouml; competition on Multi-Agent Reinforcement Learning in Malm&Ouml;. The aim of the competition is to foster research in agents that can learn to play a range of multi-agent games. This workshop is a key opportunity to raise awareness of the competition and associated research challenges within the AIIDE community, to brainstorm and discuss research directions in multi-task, multi-agent learning in modern video games, and to create a fertile ground for novel collaborations.
@@ -164,8 +162,25 @@
                         <div class="section-heading text-center">
                             <h2 class="h-bold">Competition</h2>
                         </div><br>
-                        <div class="text-left">
-                            <p> Text about competition</p>
+                        <div class="text-justify">
+                            <p> The Multi-Agent Reinforcement Learning in MalmÖ (MARLÖ) competition is a new challenge that proposes research on Multi-Agent Reinforcement Learning using multiple games. Participants would create learning agents that will be able to play multiple 3D games as deﬁned in the MalmÖ platform built on top of Minecraft. The aim of the competition is to encourage AI research on more general approaches via multi-player games. For this, the challenge will consist of not one but several games, each one of them with several tasks of varying diﬃculty and settings. Some of these tasks will be public and participants will be able to train on them. Others, however, will be private, only used to determine the ﬁnal rankings of the competition.
+                            </p>
+                            <p> A framework will be provided with easy instructions to install, create the ﬁrst agent and submit it to the competition server. Documentation, tutorials and sample controllers for the development of entries will also be accessible to the participants of this challenge. The competition will be hosted on CrowdAI.org, which will determine the preliminary rankings of the competition. Recurring tournaments at regular intervals will determine which agents perform better in the games proposed. This competition will be sponsored by Microsoft Research for framework development and competition awards.
+                            </p>
+                            <p>
+                                One of the main features of this competition is that agents play in multiple games. Therefore, several tasks are
+                                proposed for this contest. For the purpose of this document and the competition itself, we deﬁne:
+                            </p>
+                            <ul class="col-lg-offset-1">
+                                <li>Game: each one of the diﬀerent scenarios in which agents play. </li>
+                                <li>Task: each instance of a game. Tasks, within a game, may be diﬀerent to each other in terms of level layout, size, diﬃculty and other game-dependent settings.</li>
+                             </ul>
+                            <p> The next figure sketches how games and tasks are organized in the challenge. As can be seen, tasks will be of public nature and accessible by the participants, while others are secret and will be used to evaluate the submitted entries at the end of the competition. Tasks are distributed across sets:
+                            </p>
+                            <div style="max-width:1200px; text-center">
+                                <img src="img/gamesandtasks.png" alt="..." style="width:70%">
+                            </div>
+                            <p> <br> For more information about the competition, visit our <a href="https://www.crowdai.org/challenges/marlo-2018" target="_blank">Crowd AI</a> site.
                         </div>
                     </div>
                 </div>
@@ -227,7 +242,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-10">
                     <ul class="footer-menu">
                         <li><a href="https://www.crowdai.org/challenges/marlo-2018" target="_blank">Competition</a></li>
                         <li><a href="https://github.com/spMohanty/marLo" target="_blank">Code</a></li>

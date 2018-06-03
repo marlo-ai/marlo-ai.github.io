@@ -43,32 +43,3 @@ a,.tp-caption a.btn:hover {
 .highlight-color {
 	background-color: #880EE1;
 }
-
-.service-box:hover {
-	border-bottom: 2px solid #880EE1;
-}
-
-
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #880EE1;
-}
-form.search-form input:focus {
-	border-color: #880EE1;
-}
-
-/* footer */
-ul.footer-menu li a:hover {
-	color: #880EE1;
-}
-
-footer a.totop:hover {
-	color: #880EE1;
-}
-
-
-.btn-skin {
-  color: #fff;
-  background-color: #880EE1;
-  border-color: #880EE1;
-}
